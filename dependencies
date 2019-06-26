@@ -1,0 +1,9 @@
+install files:
+
+(install npm first)
+
+npm install hexo --save
+npm install hexo-renderer-less --save
+npm install hexo-generator-feed --save
+npm install hexo-generator-json-content --save
+npm install hexo-helper-qrcode --save
