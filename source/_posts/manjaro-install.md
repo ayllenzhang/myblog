@@ -5,11 +5,11 @@ tags: [manjaro, linux, 装机]
 categories: 探索 / Explore
 ---
 
-# 前言
-
-作为当前 [DistroWatch](https://distrowatch.com/) 上排名第二的 Linux 发行版，基于 ArchLinux 的 Manjaro 在继承前者的 AUR 仓库，共享了前者的 Wiki 及社区的同时，大大简化了 ArchLinux 的上手难度。他提供丰富的图形化界面选择，自动安装驱动，且拥有专用的软件仓库，是 Linux 初学者及进阶使用者的不二选择。
+作为当前 [DistroWatch](https://distrowatch.com/) 上排名第二的 Linux 发行版，基于 ArchLinux 的 Manjaro 在共享前者的 AUR 仓库，Wiki 及社区的同时，大大简化了 ArchLinux 的上手难度。他提供丰富的图形化界面选择，自动安装驱动，且拥有专用的软件仓库，是 Linux 初学者及进阶使用者的不二选择。
 
 网上已经有很多的 Manjaro 装机报告了，我在此加以总结，并补充上我自己遇上的一些 bug 以及解决方案。
+
+<!-- more -->
 
 # Manjaro 的安装
 
