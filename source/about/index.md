@@ -8,11 +8,11 @@ layout: page
 @card{
 
 ## 关于我
-- 张安然是自己给自己取的名字，理想是安然无恙，没病没灾。
-- 会写点程序，研究兴趣很广泛，现在在做表示学习。
-- 旅行爱好者，去过国内所有省，海外去过日韩美泰。同时是户外/徒步星人，去过很多地方露营。
+- 张安然是自己给自己取的名字，理想是安然无恙，没病没灾。
+- 会写一点点程序，研究兴趣很广泛，现在在做表示学习。
+- 旅行爱好者，去过国内所有省，海外去过日韩美泰。同时是户外/徒步星人，时常露营。
     - 目前为止最喜欢的是北海道的雪景，希望能在这儿养老。
-- 喜欢听歌，随便推两首的话我想会是
+- 喜欢听歌，最近听得多的是
     - [寂寞的恋人啊 - 莫文蔚](https://music.163.com/#/song?id=277586)
     - [南方 - 达达乐队](https://music.163.com/#/song?id=350838)
 
@@ -23,7 +23,7 @@ layout: page
 ## About Me
 - Graduated from THU in 2018, majoring in Automation.
 - Summer intern @ School of Public Health, Brown University (2017)
-- Summer intern @ Department of Computer Science and Technology, Nanjing University (2019)
+- Summer intern @ Department of CST, Nanjing University (2019)
 - Travel & outdoor enthusiast. Travelled throughout China.
     - My favorite by far is the snow scenery in Hokkaido
 - Beloved songs
@@ -40,8 +40,8 @@ layout: page
 @card{
 
 # 关于这个博客
-- 写些各种生活中有意思的事，关于科研，关于旅行，关于日常。
-- 一条闲鱼，折腾图床折腾了半天还是没法做到同时保证墙内墙外访问速度。什么时候弄好了就可以好好写文了（大概）。
+- 写些有意思的事，关于科研，关于旅行，关于日常。
+- 闲鱼一条，随缘写文。
 
 }
 

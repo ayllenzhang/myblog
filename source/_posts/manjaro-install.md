@@ -31,7 +31,9 @@ categories: 探索 / Explore
 
 注意：双系统安装需要提前分区，请参考[这个网页](<https://blog.csdn.net/lj402159806/article/details/80218360>)。
 
-装机过程请参考[这个网页]([https://zzycreate.github.io/2018/11/03/Manjaro%E7%9A%84%E5%B0%9D%E8%AF%95/](https://zzycreate.github.io/2018/11/03/Manjaro的尝试/))。（很有缘，博客作者和我用的同一套 Hexo 主题，只是我调了颜色）
+一个小 Trick 是：如果你有双硬盘，建议将 `~/Downloads` 挂在机械硬盘上，然后利用 `ln -s` 建立软连接。例如，将 `Documents` 文件夹放在 `~/Downloads` 下，但通过 `ln -s` 连接到主文件夹中。这样，`Documents` 就不会占用固态硬盘的空间，而我们仍可以通过 `~/Documents` 直接访问该文件夹。
+
+装机过程请参考[这个网页](https://zzycreate.github.io/2018/11/03/Manjaro的尝试/)。（很有缘，博客作者和我用的同一套 Hexo 主题，只是我调了颜色）
 
 # Manjaro 系统配置
 
@@ -92,16 +94,18 @@ yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
 
 ### 安装输入法
 
-此处采用`fcitx + sogoupinyin` 的安装方案
+~~此处采用`fcitx + sogoupinyin` 的安装方案~~  
+
+`sogoupinyin`实在是 bug 太多了，换用`fcitx + googlepinyin` 的安装方案
 
 ```bash
 sudo pacman -S fcitx-im fcitx-configtool
 sudo pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt4 fcitx-qt5 
 # 注：按照本次装机经验，GNOME下用到的是 fcitx-qt4
-sudo pacman -S fcitx-sogoupinyin fcitx-googlepinyin fcitx-cloudpinyin
+sudo pacman -S fcitx-googlepinyin fcitx-cloudpinyin
 ```
 
-编辑 ~/.xprofile 和 /etc/profile，加入（两个文件都要加入这三行）
+编辑 ~/.xprofile 和 /etc/profile，加入（两个文件都要加入）
 
 ```json
 export GTK_IM_MODULE=fcitx
