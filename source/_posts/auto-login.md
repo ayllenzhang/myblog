@@ -32,8 +32,10 @@ brew install expect
 
 set timeout 30
 spawn ssh <username>@<server IP address>
-expect "password:"
-send "<password>\r"
+expect {
+    "*yes/no" {send "yes\r";exp_continue} # 分号后不能加空格！
+    "*password:" {send "<password>\r"}
+}
 expect "]*"   # 匹配任意提示信息，可换成 .*
 # send "cd arzhang\r" # 进入服务器下的个人文件夹，可省略
 # send "nvidia-smi" # 查看服务器 GPU 运行状况，可省略
