@@ -1,7 +1,7 @@
 ---
 title: SSH auto login with expect
 date: 2019-07-07 13:00:35
-tags: [Linux, 服务器]
+tags: [Linux, Server]
 categories: 探索 / Explore
 ---
 

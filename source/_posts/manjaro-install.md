@@ -1,7 +1,7 @@
 ---
 title: Manjaro 装机二三事
 date: 2019-06-24 13:31:08
-tags: [manjaro, linux, 装机]
+tags: [manjaro, linux, installation]
 categories: 探索 / Explore
 ---
 
@@ -203,6 +203,16 @@ https://github.com/qingshuisiyuan/electron-ssr-backup/releases
 # 如果 SSR 安装异常请先安装 gconf
 ```
 
+##### Tweaks 安装
+
+Gnome Tweaks 是 Gnome 下的一款主题管理软件
+
+```bash
+sudo pacman -S gnome-tweak-tool
+```
+
+
+
 ### 其他配置
 
 #### 配置快捷键
@@ -212,3 +222,18 @@ https://github.com/qingshuisiyuan/electron-ssr-backup/releases
 #### 文件夹默认打开方式出错解决方法（例如默认文件夹打开方式变为VSCode）
 
 设置-应用-移除相应误开软件的文件打开方式绑定
+
+#### 配置主题后报错 `Gtk-WARNING **: ... :Theme parsing error`
+
+在终端中输入
+
+```bash
+cd /usr/share/themes/
+ls
+```
+
+找到你当前主题对应的文件夹（不清楚主题名称可在 Tweaks 中查看）
+
+然后进入其下的 `gtk-<version>` 文件夹，`<version>` 对应你当前的GTK版本，大概率是其中的最新版。
+
+然后根据报错信息手动修改文件夹中的 `gtk.css` 即可。

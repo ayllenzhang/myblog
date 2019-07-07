@@ -94,5 +94,9 @@ deploy:
 
 
 # hexo-tag-emojis plugin configuration
-emojis:
-  image_dir: images/emojis
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
