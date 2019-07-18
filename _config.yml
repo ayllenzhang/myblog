@@ -84,13 +84,13 @@ theme: indigo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ftpsync
-  host: hyu3203370001.my3w.com
-  user: hyu3203370001
+  host: hyu2908390001.my3w.com
+  user: hyu2908390001
   pass: asdfgh156FTP
-  remote: /htdocs/
-  verbose: false
-  ignore: ["/ewh_logreport_no_delete","/logreport", 'dir1','.DS_Store','file1.htm']
-  connections: 3
+  remote: htdocs
+  verbose: true
+  ignore: ["logreport"]
+  connections: 2
 
 
 # hexo-tag-emojis plugin configuration
@@ -100,3 +100,20 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
+
+# Markdown-it config
+#markdown: 'zero'
+markdown: 'default'
+#default: 'commonmark'

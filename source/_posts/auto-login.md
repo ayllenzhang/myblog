@@ -3,6 +3,7 @@ title: SSH auto login with expect
 date: 2019-07-07 13:00:35
 tags: [Linux, Server]
 categories: 探索 / Explore
+mathjax: true
 ---
 
 厌烦了每次 `ssh` 输入用户名与密码，不妨试试这个。
@@ -91,3 +92,14 @@ expect {
 ```bash
 expect eof
 ```
+
+## 不太相关的 Update
+
+`hexo-renderer-marked@1.0.1` 更新后书名号放在行内引用里都不行了，我又不愿意以后都把尖括号换成`&lt; &gt;` 只好为这篇文章换了个renderer。
+
+```bash
+npm uninstall hexo-renderer-marked --save
+npm install hexo-renderer-markdown-it --save
+```
+
+具体配置文件参考 [wiki](https://github.com/hexojs/hexo-renderer-markdown-it/wiki) 。

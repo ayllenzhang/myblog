@@ -3,6 +3,7 @@ title: Manjaro 装机二三事
 date: 2019-06-24 13:31:08
 tags: [manjaro, linux, installation]
 categories: 探索 / Explore
+mathjax: true
 ---
 
 作为当前 [DistroWatch](https://distrowatch.com/) 上排名第二的 Linux 发行版，基于 ArchLinux 的 Manjaro 在共享前者的 AUR 仓库，Wiki 及社区的同时，大大简化了 ArchLinux 的上手难度。他提供丰富的图形化界面选择，自动安装驱动，且拥有专用的软件仓库，是 Linux 初学者及进阶使用者的不二选择。
@@ -96,12 +97,11 @@ yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
 
 ~~此处采用`fcitx + sogoupinyin` 的安装方案~~  
 
-`sogoupinyin`实在是 bug 太多了，换用`fcitx + googlepinyin` 的安装方案
+`sogoupinyin`实在是 bug 太多了，换用`fcitx + cloudpinyin` 的安装方案
 
 ```bash
 sudo pacman -S fcitx-im fcitx-configtool
-sudo pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt4 fcitx-qt5 
-# 注：按照本次装机经验，GNOME下用到的是 fcitx-qt4
+sudo pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt4 fcitx-qt5 # 都装全少点问题
 sudo pacman -S fcitx-googlepinyin fcitx-cloudpinyin
 ```
 
@@ -110,8 +110,12 @@ sudo pacman -S fcitx-googlepinyin fcitx-cloudpinyin
 ```json
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
+export XMODIFIERS="@im=fcitx"
 ```
+
+如果依然无法使用，在  `~/.profile` 也加一份，并在 `~/.xinitrc` 中加入 `fcitx &`。
+
+其他解决方法参考 [here](https://forum.ubuntu.org.cn/viewtopic.php?t=480390)
 
 ### 安装 Git 并配置 ssh
 

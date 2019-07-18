@@ -119,25 +119,25 @@ gitment: false
 #   client_secret:
 
 # use gitalk://github.com/gitalk/gitalk
-gitalk:
-  enable: true
-  owner: emoizhang
-  admin: emoizhang
-  repo: myblog
-  client_id: b82ece7a5d71c119b181
-  client_secret: 6b512aad62eb2ccb485f1bef45a41671d1d0d7c6
-  distractionFreeMode: false
+gitalk: false
+#  enable: false
+#  owner: emoizhang
+#  admin: emoizhang
+#  repo: myblog
+#  client_id: b82ece7a5d71c119b181
+#  client_secret: 6b512aad62eb2ccb485f1bef45a41671d1d0d7c6
+#  distractionFreeMode: false
 
 # Valine Comment system. https://valine.js.org
 valine:
-  enable: false # 如果你想使用valine，请将值设置为 true
-  appId:  # your leancloud appId
-  appKey:  # your leancloud appKey
+  enable: true # 如果你想使用valine，请将值设置为 true
+  appId: cFer952Ja6DQ1O1yE5bT2hDU-gzGzoHsz # your leancloud appId
+  appKey: MzfFmkudIEwjkIT0SfkW0fCm # your leancloud appKey
   notify: false # Mail notify
   verify: false # Verify code
-  avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
-  placeholder: Just go go # Comment Box placeholder
-  guest_info: nick,mail,link # Comment header info
+  avatar: mp # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  placeholder: Comments are welcome # Comment Box placeholder
+  guest_info: nick,mail # Comment header info
   pageSize: 10 # comment list page size
 
 # 是否开启Hyper Comments，填写id则启用，false则禁用。http://hypercomments.com
