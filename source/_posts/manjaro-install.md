@@ -10,7 +10,7 @@ mathjax: true
 
 网上已经有很多的 Manjaro 装机报告了，我在此加以总结，并补充上我自己遇上的一些 bug 以及解决方案。
 
-<!-- more -->
+<escape><!-- more --></escape>
 
 # Manjaro 的安装
 

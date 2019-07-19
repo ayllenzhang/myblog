@@ -5,7 +5,9 @@ tags: [Manjaro, ArchLinux]
 categories: 探索 / Explore
 ---
 
-在昨晚的一次 `update` 并重启以后，`manjaro` 忽然黑屏，而我旁边只有一台手机。吓得本 Newbie 当场就在 Manjaro Forum 的 [Newbie Corner](https://forum.manjaro.org/c/newbies) 发了个[帖子](https://forum.manjaro.org/t/18-04-gnome-black-screen-with-only-underscore-after-update-no-tty/94876)。然而发完回应者寥寥（就一个），所提的解决方法也无济于事，于是只好抱着小手机想办法。
+在昨晚的一次 `update` 并重启以后，Manjaro 忽然黑屏，而我旁边只有一台手机。吓得本 Newbie 当场就在 Manjaro Forum 的 [Newbie Corner](https://forum.manjaro.org/c/newbies) 发了个[帖子](https://forum.manjaro.org/t/18-04-gnome-black-screen-with-only-underscore-after-update-no-tty/94876)。然而发完回应者寥寥（就一个），所提的解决方法也无济于事，于是只好抱着小手机想办法。
+
+<escape><!-- more --></escape>
 
 情况是这样的，在显示完系统选择界面，进入 Loading 环节时，屏幕上依次列出了四行信息
 
@@ -18,7 +20,7 @@ Starting version 242.32-3-arch
 
 然后屏幕就定格在了黑屏，乌漆抹黑，只有左上角有一个凝固的下划线。我本来以为是更新后的初始化，结果吃了个饭回来发现还是这样，当时就惊了。更严重的是，甚至无法通过 `Ctrl+Alt+Fx` 进入 `tty` 。强制关机吧。按下关机键这个下划线还闪了两下，调皮。
 
-玩笑归玩笑，事情还是要解决。第一个问题是如何进去。如果当时我有 MacBook Pro 在旁边的话有个很方便的解决办法，那就是 [chroot](https://forum.manjaro.org/t/how-to-save-your-manjaro-installation-when-it-breaks/75) ，具体实现方法是制作一个 `Manjaro` 启动盘，在启动盘系统加载好后把原硬盘中的分区mount到系统，再用`chroot`偷天换月，然后你就可以在这个临时系统里对原系统做调整了。
+玩笑归玩笑，事情还是要解决。第一个问题是如何进去。如果当时我有 MacBook Pro 在旁边的话有个很方便的解决办法，那就是 [chroot](https://forum.manjaro.org/t/how-to-save-your-manjaro-installation-when-it-breaks/75) ，具体实现方法是制作一个 Manjaro 启动盘，在启动盘系统加载好后把原硬盘中的分区mount到系统，再用`chroot`偷天换月，然后你就可以在这个临时系统里对原系统做调整了。
 
 但是没有，怎么办呢？我首先参考了[这个网页](https://www.ostechnix.com/restore-broken-arch-linux-previous-working-state/)，通过在 `grub` 文件中 `linux` 为首的一行行末插入
 

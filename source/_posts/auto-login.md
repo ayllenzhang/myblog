@@ -8,7 +8,7 @@ mathjax: true
 
 厌烦了每次 `ssh` 输入用户名与密码，不妨试试这个。
 
-<!-- more -->
+<escape><!-- more --></escape>
 
 ## 安装 expect
 
