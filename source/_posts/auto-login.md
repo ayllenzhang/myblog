@@ -37,9 +37,10 @@ expect {
     "*yes/no" {send "yes\r";exp_continue} # 分号后不能加空格！
     "*password:" {send "<password>\r"}
 }
-expect "]*"   # 匹配任意提示信息，可换成 .*
-# send "cd arzhang\r" # 进入服务器下的个人文件夹，可省略
-# send "nvidia-smi" # 查看服务器 GPU 运行状况，可省略
+expect "]*"
+# send "nvidia-smi"
+# expect "*"
+# send "cd ayzhang\r"
 interact
 ```
 
@@ -54,6 +55,8 @@ chmod +x <filename>
 其中 `<filename>` 为脚本文件名。
 
 最后，在脚本文件夹目录下使用 `./<filename>` 运行即可。
+
+如需添加额外指令，请仿照被注释掉的几行添加。
 
 ## 脚本语句解释
 
