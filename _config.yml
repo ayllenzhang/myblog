@@ -104,7 +104,7 @@ githubEmojis:
   customEmojis:
 
 math:
-  engine: 'mathjax' # or 'katex'
+  engine: 'katex' # or 'mathjax'
   mathjax:
     src: custom_mathjax_source
     config:
@@ -131,7 +131,7 @@ qiniu:
   # 上传的资源子目录前缀.如设置，需与urlPrefix同步
   dirPrefix: static
   # 外链前缀
-  urlPrefix: http://pusl7d467.bkt.clouddn.com/static
+  urlPrefix: http://qny.ayzh.tech/
   # 使用默认配置即可
   up_host: http://upload.qiniu.com
   # 本地目录
