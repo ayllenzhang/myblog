@@ -88,11 +88,11 @@ deploy:
   type: ftpsync
   host: hyu2908390001.my3w.com
   user: hyu2908390001
-  pass: asdfgh156FTP
-  remote: htdocs
+  pass: passwd233FTP
+  remote: /htdocs
   verbose: true
-  ignore: ["logreport"]
-  connections: 2
+  ignore: ["logreport", ".DS_Store"]
+  connections: 1
 
 
 # hexo-tag-emojis plugin configuration
@@ -131,7 +131,7 @@ qiniu:
   # 上传的资源子目录前缀.如设置，需与urlPrefix同步
   dirPrefix: static
   # 外链前缀
-  urlPrefix: http://qny.ayzh.tech/
+  urlPrefix: http://qny.ayzh.tech/static/
   # 使用默认配置即可
   up_host: http://upload.qiniu.com
   # 本地目录
