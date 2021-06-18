@@ -12,6 +12,11 @@ Some notes I took down last summer, when I was reviewing *statistics* and *proba
 
 ## Basic Probability
 
+### Definitions
+
+- Event: A set of outcomes of an experiment
+- Random variable: outcome of an experiment
+
 ### Bayes' Theorem
 For two random events A, B
 $$

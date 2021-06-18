@@ -47,7 +47,7 @@ categories: 远方 / Travel
 
 在富士急行巴士上又拍了一段，果然富士山就是好看啊
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"> <iframe src="//player.bilibili.com/player.html?aid=64302824&cid=111646349&page=3&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe> </div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"> <iframe src="//player.bilibili.com/player.html?aid=64302824&cid=111745013&page=3&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe>
 
 然后在「朝霧グリーンパーク」这个站下了车。从巴士站到露营地还要走个两公里的样子，而且是朝着富士山的反方向走，导致我一路上都在怀疑自己是否走错了。
 
@@ -66,6 +66,12 @@ categories: 远方 / Travel
 这次去的是 [ふもとっぱら](https://fumotoppara.net/facilities) 这个营地，对应摇曳露营的第 2 ~ 3 话。官网上是可以预约营地和住宿的，但是我并没有日本手机号就没有预约。由于是四月去的，也还没到旺季，所以当天去当天办理也完全可以。办完手续会给一张地图，和动画中的一模一样。顺带一提官网是有这个地图的[电子版](https://fumotoppara.net/wp-content/uploads/map_map2015.jpg)的。
 
 {% qnimg fummoto_map.png %}
+
+这里就是营地的办公室了，交钱领地图都在这儿，也是和动画中的一毛一样
+
+{% qnimg yewuguanli_real.jpg %}
+
+{% qnimg yewuguanli.png %}
 
 自带帐篷也需要 2000 日元的使用费，相当于国内三线城市睡一晚了
 
@@ -91,7 +97,9 @@ categories: 远方 / Travel
 
 {% qnimg yoshi.png %}
 
-一路过来已经是又累又饿，是时候开饭了！
+Solo camp 真是太棒了！
+
+不过一路过来加上搭帐篷已经是又累又饿，是时候开饭了
 
 {% qnimg kaifan.jpg %}
 
@@ -111,7 +119,19 @@ Double 富士山！
 
 {% qnimg twofujisample.png %}
 
-嗷呜~
+这边的红房子据说以前是存放谷物的，不过现在已经只是洗手间了
+
+{% qnimg redhouse_real.jpg %}
+
+{% qnimg redhouse.png %}
+
+红房子的侧面是一张大脸
+
+{% qnimg dalian_real.jpg %}
+
+{% qnimg dalian_anime.png %}
+
+林子里的动物雕像，嗷呜~
 
 {% qnimg aowu_real.jpg %}
 
@@ -119,7 +139,17 @@ Double 富士山！
 
 {% qnimg aowu.png %}
 
-没转多久也就天黑了，大家都点起了帐篷里的小灯
+上面这几个地方的位置关系大概这样，狮虎雕像和办公室则要在更后方
+
+{% qnimg position.png %}
+
+没转多久太阳也就快落山了，不过今天并没有晚霞，只是一般般的红色
+
+{% qnimg pink.png %}
+
+{% qnimg pinkornot.jpg %}
+
+逐渐天黑了，大家都点起了帐篷里的小灯
 
 {% qnimg tonight.jpg %}
 
@@ -137,7 +167,7 @@ Double 富士山！
 
 把 pocket 放着拍日出了，我在旁边玩手机坐等
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"> <iframe src="//player.bilibili.com/player.html?aid=64302824&cid=111646349&page=2&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe> </div>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"> <iframe src="//player.bilibili.com/player.html?aid=64302824&cid=111648285&page=2&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; width:100%; height:100%; left:0; top:0;"> </iframe> </div>
 
 由于三脚架坏了只能放在炉头的盒子上拍，所以下面有个橙色盖子 2333。
 
@@ -185,7 +215,7 @@ Double 富士山！
 
 {% qnimg koan_real.jpg %}
 
-{% qnimg koan_anime.jpg %}
+{% qnimg koan_anime.png %}
 
 {% qnimg shoufu.jpg %}
 
